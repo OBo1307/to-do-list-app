@@ -9,3 +9,22 @@ function newItem(){
       } else {
         $('#list').append(li);
       };
+
+    // Crossing out an item from the list of items:
+
+    function crossOut() {
+	    li.toggleClass("strike");
+	}
+
+	li.on("dblclick", function crossOut() {
+		li.toggleClass("strike");
+	});
+
+    // Adding the delete button "X":
+
+    // Adding CLASS DELETE (DISPLAY: NONE) from the css:
+
+
+
+
+}
