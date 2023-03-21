@@ -29,6 +29,9 @@ function newItem(){
 
     // Adding CLASS DELETE (DISPLAY: NONE) from the css:
 
+    function deleteListItem(){
+ 		li.addClass("delete")
+ 	}
 
 
 
